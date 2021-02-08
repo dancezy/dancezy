@@ -1,0 +1,262 @@
+/* master.css
+*/
+
+/* google fonts
+roboto
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+*/
+
+/* color
+light greenish #5aa7ab;
+red #FF0000;
+pink #FF0066;
+gold #ffd700
+*/
+
+/* notes
+body margin 0 auto means no bottom scroll bar
+*/
+
+/*************** Global *****************/
+html {
+  background: white;
+}
+
+body {
+  background: white;
+  margin: 0 auto;
+}
+
+footer {
+  text-decoration: none;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+  color: #5aa7ab;
+  margin-left: 100px;
+  padding-bottom: 0 auto;
+}
+
+.backtotop {
+    text-align: right;
+    padding-bottom: 42px;
+    margin-right: 60px;
+    color: #ff0066;
+    text-decoration: none;
+  }
+
+h1 {
+    width: 100%
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #FF0066;
+    text-align: center;
+  }
+
+/* h2 is for homepage text placeholder*/
+  h2 {
+    width: 100%
+    padding: 100px;
+    margin-left: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #5aa7ab;
+  }
+
+  h3 {
+    width: 100%
+    padding: 100px;
+    margin-left: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #5aa7ab;
+  }
+
+  p {
+    width: 100%
+    padding-top: 100px;
+    margin-left: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #666666;
+  }
+
+  .p1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #5aa7ab;
+  }
+
+  .p2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #666666;
+    padding: 0 auto;
+  }
+
+/* p3 is for news page */
+  .p3 {
+    padding: 10px 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: black;
+  }
+
+  .news-page {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+
+/* buttons */
+a.btn {
+    background-color: #ff0066;
+    text-decoration: none;
+    font-size: 42px;
+    color: white;
+
+  }
+  a.btn:hover {
+    background-color: #5aa7ab;
+  }
+
+
+/*************** Header *****************/
+
+header {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #5aa7ab;
+}
+
+/************* container **************************/
+.container {
+  width: 96%;
+  overflow: auto;
+  padding-top: 100px;
+}
+
+  img {
+    width: 40%;
+    float: right;
+    padding: 10px;
+  }
+
+
+/************* section conference here *****************/
+#section-conference {
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  padding-top: 30px;
+
+}
+
+.container-conference {
+  width: 100%;
+  overflow: auto;
+    padding-top: 30px;
+}
+
+.figure-conference {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.figure-conference img {
+  width: 20%;
+  margin-right: 60px;
+  padding: 60px;
+}
+
+.article-conference {
+  width: 60%;
+  margin-left: 15px;
+  }
+
+
+/************** section speakers *******/
+  #section-speakers {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #d8d8d8;
+    padding-top: 30px;
+  }
+
+  .container-speakers {
+    width: 100%;
+    overflow: auto;
+  }
+
+  .figure-speakers {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .figure-speakers img {
+    width: 20%;
+    margin-right: 60px;
+    padding: 60px;
+  }
+
+  .article-speakers {
+    width: 60%;
+    margin-left: 15px;
+    }
+
+
+/*************** section about sponsors here *****************/
+    #section-about {
+      width: 100%;
+      margin: 0 auto;
+      background-color: white;
+      padding-top: 60px;
+    }
+
+    .container-about {
+      width: 100%;
+      overflow: auto;
+    }
+
+    .figure-about {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .figure-about img {
+      width: 20%;
+      margin-right: 60px;
+      padding: 60px;
+    }
+
+    .article-about {
+      width: 60%;
+      margin-left: 15px;
+      }
+
+
+/*/
